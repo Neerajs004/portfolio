@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NEERAJ S- COLLEGE STUDENT IN KERALA</title>
+  <title>Neeraj S | Computer Science Graduate & Software Developer</title>
 
   <!-- 
     - favicon
@@ -15,14 +15,14 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css?v=1.2">
 
   <!-- 
     - google font link
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
 
   <!-- 
@@ -82,6 +82,10 @@
             <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
           </li>
 
+          <li>
+            <a href="./assets/files/Neeraj_Resume.pdf" class="navbar-link" download>Resume</a>
+          </li>
+
         </ul>
       </nav>
 
@@ -106,51 +110,83 @@
       -->
 
       <section class="section hero" id="home" aria-label="hero">
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
         <div class="container">
-
-          <figure class="hero-banner img-holder has-before" style="--width: 640; --height: 840;">
-            <img src="./assets/images/hero-banner1.jpg" width="640" height="840" alt="NEERAJ S" class="img-cover">
-          </figure>
 
           <div class="hero-content">
 
-            <p class="section-subtitle">Neeraj S</p>
+            <p class="section-subtitle">Hi there, I'm</p>
 
-            <h1 class="h1 hero-title">Computer Science Student</h1>
+            <h1 class="h1 hero-title" style="font-size: 5.5rem; font-weight: 800; background: linear-gradient(135deg, #a5b4fc, #6366f1, #10b981); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Neeraj S</h1>
+            
+            <h2 class="h3" style="color: var(--accent-color); margin-top: 1rem; font-weight: 600; font-size: 2.2rem; letter-spacing: 1px;">Computer Science Graduate</h2>
 
-            <ul class="hero-list">
+            <ul class="hero-list" style="margin-top: 2rem;">
 
               <li>
-                <a href="#" class="list-link">
-                  <span class="span">Frontend Learner</span>
-
+                <a href="#projects" class="list-link">
+                  <span class="span">Full-Stack Web Developer</span>
                   <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="list-link">
-                  <span class="span">Digital Marketing</span>
-
+                <a href="#internships" class="list-link">
+                  <span class="span">AI & ML Developer</span>
                   <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a href="#" class="list-link">
-                  <span class="span">Tech Enthusiast</span>
-
+                <a href="#skills" class="list-link">
+                  <span class="span">Software Engineer</span>
                   <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                 </a>
               </li>
 
             </ul>
 
-            
-            <a href="#portfolio" class="slide-down-btn" aria-label="scroll down">
+             <div class="hero-btns">
+              <a href="./assets/files/Neeraj_Resume.pdf" class="btn btn-primary" download style="color: #ffffff;">
+                <ion-icon name="download-outline" aria-hidden="true" style="font-size: 20px;"></ion-icon>
+                <span>Download Resume</span>
+              </a>
+              <a href="#contact" class="btn" style="border: 1px solid var(--border-color); color: var(--text-primary); background-color: var(--black_10);">
+                <span>Contact Me</span>
+              </a>
+            </div>
+
+            <a href="#about" class="slide-down-btn" aria-label="scroll down">
               <ion-icon name="arrow-down" aria-hidden="true"></ion-icon>
             </a>
 
+          </div>
+
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-buttons">
+                <span class="terminal-btn red"></span>
+                <span class="terminal-btn yellow"></span>
+                <span class="terminal-btn green"></span>
+              </div>
+              <span class="terminal-title">neeraj.json</span>
+              <div style="width: 50px;"></div>
+            </div>
+            <div class="terminal-body">
+              <span class="terminal-line"><span class="terminal-bracket">{</span></span>
+              <span class="terminal-line">&nbsp;&nbsp;<span class="terminal-key">"name"</span>: <span class="terminal-string">"Neeraj S"</span>,</span>
+              <span class="terminal-line">&nbsp;&nbsp;<span class="terminal-key">"title"</span>: <span class="terminal-string">"Computer Science Graduate"</span>,</span>
+              <span class="terminal-line">&nbsp;&nbsp;<span class="terminal-key">"degree"</span>: <span class="terminal-string">"B.Tech in CSE"</span>,</span>
+              <span class="terminal-line">&nbsp;&nbsp;<span class="terminal-key">"location"</span>: <span class="terminal-string">"Cherthala, Kerala"</span>,</span>
+              <span class="terminal-line">&nbsp;&nbsp;<span class="terminal-key">"skills"</span>: <span class="terminal-bracket">[</span></span>
+              <span class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="terminal-string">"Python"</span>, <span class="terminal-string">"JavaScript"</span>, <span class="terminal-string">"React"</span>,</span>
+              <span class="terminal-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="terminal-string">"Deep Learning"</span>, <span class="terminal-string">"Streamlit"</span>, <span class="terminal-string">"C++"</span></span>
+              <span class="terminal-line">&nbsp;&nbsp;<span class="terminal-bracket">]</span>,</span>
+              <span class="terminal-line">&nbsp;&nbsp;<span class="terminal-key">"passionate_about"</span>: <span class="terminal-string">"Building AI & Web products"</span>,</span>
+              <span class="terminal-line">&nbsp;&nbsp;<span class="terminal-key">"hireable"</span>: <span class="terminal-bool">true</span></span>
+              <span class="terminal-line"><span class="terminal-bracket">}</span></span>
+            </div>
           </div>
 
         </div>
@@ -160,42 +196,78 @@
   - #ABOUT ME
 -->
        <section class="section about" id="about" aria-label="about">
-        <div class="container">
+         <div class="glow-orb glow-orb-1"></div>
+         <div class="container">
 
-          <p class="section-subtitle">About Me</p>
-          <h2 class="h2 section-title">Who I Am</h2>
+           <p class="section-subtitle">About Me</p>
+           <h2 class="h2 section-title">Who I Am</h2>
 
-        <div class="about-wrapper" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
+           <div class="about-wrapper" style="display: flex; flex-wrap: wrap; gap: 4rem; align-items: flex-start;">
 
-        <div class="about-img img-holder has-before" style="--width: 500;">
-        <img src="./assets/images/hero-banner2.jpg" width="10"  alt="Neeraj S" class="img-cover"
-          style="border-radius: 10%; border: 4px solid #ccc;">
-        </div>
+             <div class="about-content" style="flex: 1.2; min-width: 300px;">
+               <h3 class="h3" style="margin-bottom: 1.5rem; font-size: 2.4rem;">Hi! I'm Neeraj S</h3>
+               <p class="section-text" style="margin-bottom: 2rem; font-size: 1.65rem; line-height: 1.8;">
+                 I am a B.Tech Graduate in Computer Science and Engineering from APJ Abdul Kalam Technological University. 
+                 I specialize in building full-stack web applications, engineering AI & machine learning systems, and designing data-driven solutions to solve complex real-world challenges. 
+                 I love turning conceptual designs into functional code, optimizing user experiences, and exploring advanced AI capabilities.
+               </p>
 
-        <div class="about-content" style="flex: 1; min-width: 280px;">
-        <h3 class="h3">Hi! I'm Neeraj S</h3>
-        <p class="section-text">
-          I'm currently pursuing B.Tech in Computer Science and Engineering at APJ Abdul Kalam Technological University.
-          Passionate about Web Development and Data analysis, I'm constantly exploring new tech to build creative and
-          useful solutions.
-        </p>
+               <ul class="about-list" style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2.5rem;">
+                 <li style="display: flex; align-items: center; gap: 10px;"><ion-icon name="location-outline" style="color: var(--theme-color); font-size: 20px;"></ion-icon> <span><strong>Location:</strong> Cherthala, Alappuzha, Kerala</span></li>
+                 <li style="display: flex; align-items: center; gap: 10px;"><ion-icon name="language-outline" style="color: var(--theme-color); font-size: 20px;"></ion-icon> <span><strong>Languages:</strong> English, Hindi, Tamil, Malayalam</span></li>
+                 <li style="display: flex; align-items: center; gap: 10px;"><ion-icon name="code-working-outline" style="color: var(--theme-color); font-size: 20px;"></ion-icon> <span><strong>Focus Areas:</strong> Full-Stack, AI & Prompt Engineering, Data Analytics</span></li>
+               </ul>
+             </div>
 
-        <ul class="about-list" style="margin-top: 1rem;">
-          <li><strong>Location:</strong> Cherthala, Alappuzha, Kerala</li>
-          <li><strong>Languages:</strong> English,Hindi,Tamil,Malayalam</li>
-          <li><strong>Interests:</strong> Coding,Gaming,Football,Cricket</li>
-        </ul>
+             <div class="about-img-and-stats" style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 3rem;">
+                <!-- Personal Photo styled nicely -->
+                <div class="about-img img-holder has-before" style="--width: 3; --height: 3.5; max-width: 260px; width: 100%; margin-inline: 0 auto; border-radius: var(--radius-10); border: 2px solid var(--border-color); box-shadow: var(--shadow);">
+                  <img src="./assets/images/hero-banner2.jpg" alt="Neeraj S" class="img-cover">
+                </div>
 
-        <a href="./assets/files/Resumee.pdf" class="btn btn-primary" style="margin-top: 1rem;" download>
-          <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
-          Download Resume
-          </a>
-        </div>
+               <!-- Stats Grid -->
+               <div class="stats-grid">
+                 
+                 <div class="stats-card indigo">
+                   <ion-icon name="school-outline"></ion-icon>
+                   <div>
+                     <h4 class="stats-number">B.Tech</h4>
+                     <p class="stats-label">CSE Graduate</p>
+                   </div>
+                 </div>
 
-        </div>
+                 <div class="stats-card emerald">
+                   <ion-icon name="code-slash-outline"></ion-icon>
+                   <div>
+                     <h4 class="stats-number">5+</h4>
+                     <p class="stats-label">Projects Built</p>
+                   </div>
+                 </div>
 
-        </div>
-      </section>
+                 <div class="stats-card violet">
+                   <ion-icon name="briefcase-outline"></ion-icon>
+                   <div>
+                     <h4 class="stats-number">2</h4>
+                     <p class="stats-label">Internships Done</p>
+                   </div>
+                 </div>
+
+                 <div class="stats-card pink">
+                   <ion-icon name="ribbon-outline"></ion-icon>
+                   <div>
+                     <h4 class="stats-number">7+</h4>
+                     <p class="stats-label">Certifications</p>
+                   </div>
+                 </div>
+
+               </div>
+
+             </div>
+
+           </div>
+
+         </div>
+       </section>
 
         <!-- 
   - #EDUCATION
@@ -211,7 +283,7 @@
 
         <li class="education-item">
           <h3 class="item-period">2022 - 2026</h3>
-          <p class="item-title">B-tech in Computer Science and Engineering</p>
+          <p class="item-title">B.Tech in Computer Science and Engineering (Graduated)</p>
           <p class="item-address">COLLEGE OF ENGINEERING CHERTHALA, CHERTHALA</p>
        </li>
 
@@ -251,10 +323,7 @@
             <h2 class="h2 section-title">Programming Skills</h2>
 
             <p class="section-text">
-              <p class="section-text">
-              I’m a self-motivated college student with growing experience in front-end development, Python programming, and creative design. I love turning ideas into interactive web applications.
-              </p>
-.
+              I’m a self-motivated Computer Science graduate with hands-on experience in full-stack web development, Python scripting, and AI-enabled application design. I love building optimized, robust web solutions and exploring the capabilities of AI integrations.
             </p>
 
             <ul class="skills-list">
@@ -297,7 +366,7 @@
 
               <li class="skills-item">
                 <div class="wrapper">
-                  <h3 class="skill-title">python</h3>
+                  <h3 class="skill-title">Python</h3>
 
                   <data class="skill-value" value="70%">70%</data>
                 </div>
@@ -461,52 +530,81 @@
 
   <!-- 
   - #INTERNSHIPS
--->
-<section class="section internships" id="internships" aria-label="internships">
+--><section class="section internships" id="internships" aria-label="internships">
+  <div class="glow-orb glow-orb-2"></div>
   <div class="container">
 
     <p class="section-subtitle">Internships</p>
     <h2 class="h2 section-title">My Internship Experience</h2>
 
-    <!-- Internship VaultofCodes -->
-    <div class="internship-item">
-      <h3 class="h3">AI & Prompt Engineering Intern – VaultofCodes</h3>
-      <p class="item-period">June – July 2025 (1 Month, Remote)</p>
-      <p class="item-description">
-        Successfully completed a one-month internship at <strong>VaultofCodes</strong> focusing on 
-        <em>AI and Prompt Engineering</em>. During this period, I worked on real-world projects, 
-        enhanced my problem-solving abilities, and explored practical applications of prompt 
-        engineering in AI-driven systems. The internship helped me gain hands-on experience and 
-        strengthened my technical and professional skills.
-      </p>
+    <div class="timeline-container" style="max-width: 800px; margin-inline: auto; margin-top: 3rem;">
 
-      <div class="internship-docs" style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1.5rem;">
-        
-        <!-- Offer Letter -->
-        <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
-          <img src="./assets/images/internship-offer.jpg" width="500" height="600" loading="lazy"
-            alt="Offer Letter - VaultofCodes Internship" class="img-cover"
-            style="border: 2px solid #ccc; border-radius: 8px;">
-          <figcaption style="text-align: center; margin-top: 0.5rem; font-weight: 500;">Offer Letter</figcaption>
-        </figure>
+      <!-- Internship Infosys Springboard -->
+      <div class="internship-item">
+        <h3 class="h3" style="font-size: 2rem; font-weight: 700; color: var(--text-primary);">AI Developer Intern – Infosys Springboard</h3>
+        <p class="item-period" style="color: var(--theme-color); font-weight: 600; margin-block: 5px 12px; font-size: 1.45rem;">November 2025 – January 2026 (2 Months, Remote)</p>
+        <p class="item-description" style="line-height: 1.7; color: var(--text-secondary);">
+          Successfully completed a two-month internship under the <strong>Infosys Springboard</strong> program, focusing on the domain of 
+          <em>Plant DocBot: AI-Enabled Plant Disease Diagnosis via Chat and Image Analysis</em>. During this period, I designed and developed a 
+          Streamlit-based conversational chatbot integrated with deep learning models to diagnose plant leaf diseases from user-uploaded images and text queries. This experience strengthened my skills in Python, PyTorch/TensorFlow, Streamlit, and computer vision.
+        </p>
+        <div style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+          <a href="https://github.com/Neerajs004/Intern-PlantChatBot-Project" target="_blank" class="project-link">
+            <ion-icon name="logo-github" aria-hidden="true" style="font-size: 18px;"></ion-icon>
+            <span>View Project on GitHub</span>
+          </a>
+        </div>
 
-        <!-- Internship Certificate -->
-        <figure class="card-banner img-holder" style="--width: 300;">
-          <img src="./assets/images/internship-cert.jpg" width="300" loading="lazy"
-            alt="Internship Certificate - VaultofCodes" class="img-cover"
-            style="border: 2px solid #ccc; border-radius: 8px;">
-          <figcaption style="text-align: center; margin-top: 0.5rem; font-weight: 300;">Internship Certificate</figcaption>
-        </figure>
-
-        <!-- Training Certificate -->
-        <figure class="card-banner img-holder" style="--width: 200;">
-          <img src="./assets/images/training-cert.jpg" width="200"  loading="lazy"
-            alt="Training Certificate - VaultofCodes" class="img-cover"
-            style="border: 2px solid #ccc; border-radius: 8px;">
-          <figcaption style="text-align: center; margin-top: 0.5rem; font-weight: 200;">Training Certificate</figcaption>
-        </figure>
-
+        <div class="internship-docs" style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1.5rem;">
+          <!-- Internship Certificate -->
+          <figure class="card-banner img-holder" style="--width: 1024; --height: 723; max-width: 300px; width: 100%;">
+            <img src="./assets/images/infosys-internship-cert.jpg" width="1024" height="723" loading="lazy"
+              alt="Internship Certificate - Infosys Springboard" class="img-cover"
+              style="border: 2px solid var(--border-color); border-radius: 8px;">
+            <figcaption style="text-align: center; margin-top: 0.5rem; font-weight: 500; font-size: 1.3rem;">Internship Certificate</figcaption>
+          </figure>
+        </div>
       </div>
+
+      <!-- Internship VaultofCodes -->
+      <div class="internship-item">
+        <h3 class="h3" style="font-size: 2rem; font-weight: 700; color: var(--text-primary);">AI & Prompt Engineering Intern – VaultofCodes</h3>
+        <p class="item-period" style="color: var(--theme-color); font-weight: 600; margin-block: 5px 12px; font-size: 1.45rem;">June – July 2025 (1 Month, Remote)</p>
+        <p class="item-description" style="line-height: 1.7; color: var(--text-secondary);">
+          Successfully completed a one-month internship at <strong>VaultofCodes</strong> focusing on 
+          <em>AI and Prompt Engineering</em>. During this period, I worked on real-world projects, 
+          enhanced my problem-solving abilities, and explored practical applications of prompt 
+          engineering in AI-driven systems. The internship helped me gain hands-on experience and 
+          strengthened my technical and professional skills.
+        </p>
+
+        <div class="internship-docs" style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 1.5rem; align-items: flex-end;">
+          <!-- Offer Letter -->
+          <figure class="card-banner img-holder" style="--width: 2209; --height: 3125; max-width: 140px; width: 100%;">
+            <img src="./assets/images/internship-offer.jpg" width="2209" height="3125" loading="lazy"
+              alt="Offer Letter - VaultofCodes Internship" class="img-cover"
+              style="border: 2px solid var(--border-color); border-radius: 8px;">
+            <figcaption style="text-align: center; margin-top: 0.5rem; font-weight: 500; font-size: 1.3rem;">Offer Letter</figcaption>
+          </figure>
+
+          <!-- Internship Certificate -->
+          <figure class="card-banner img-holder" style="--width: 1755; --height: 1240; max-width: 180px; width: 100%;">
+            <img src="./assets/images/internship-cert.jpg" width="1755" height="1240" loading="lazy"
+              alt="Internship Certificate - VaultofCodes" class="img-cover"
+              style="border: 2px solid var(--border-color); border-radius: 8px;">
+            <figcaption style="text-align: center; margin-top: 0.5rem; font-weight: 500; font-size: 1.3rem;">Internship Certificate</figcaption>
+          </figure>
+
+          <!-- Training Certificate -->
+          <figure class="card-banner img-holder" style="--width: 1755; --height: 1240; max-width: 180px; width: 100%;">
+            <img src="./assets/images/training-cert.jpg" width="1755" height="1240" loading="lazy"
+              alt="Training Certificate - VaultofCodes" class="img-cover"
+              style="border: 2px solid var(--border-color); border-radius: 8px;">
+            <figcaption style="text-align: center; margin-top: 0.5rem; font-weight: 500; font-size: 1.3rem;">Training Certificate</figcaption>
+          </figure>
+        </div>
+      </div>
+
     </div>
 
   </div>
