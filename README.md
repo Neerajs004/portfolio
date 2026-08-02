@@ -1,7 +1,7 @@
 # Neeraj S — Portfolio
 
 Welcome to my personal portfolio!  
-This site showcases who I am, what I’ve built, and how to get in touch with me .
+This site showcases who I am, what I’ve built, and how to get in touch.
 
 ---
 
